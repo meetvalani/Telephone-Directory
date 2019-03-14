@@ -2,6 +2,7 @@ document.getElementById("formt").style.display="none";
 var count=0;
 function validate()
 {
+  document.getElementById("varheader").innerHTML="Add Subscriber";
   var name=document.getElementById("newname").value;
   var num=document.getElementById("newnum").value;
   document.getElementById("newname").style.borderColor='green';
@@ -37,6 +38,7 @@ function validate()
 }
 function demo()
 {
+  document.getElementById("varheader").innerHTML="Phone Directory";
   var name=document.getElementById("newname");
   var num=document.getElementById("newnum");
   var st1=document.getElementById("chan").innerHTML;
@@ -65,6 +67,7 @@ function demo()
 }
 function add()
 {
+  document.getElementById("varheader").innerHTML="Add Subscriber";
   var tmp=document.getElementById("add")
   tmp.removeChild(document.getElementById("add2"));
   var back='<button id="add2" type="submit" class="btn button-add" onclick="back()">BACK</button>';
@@ -78,6 +81,7 @@ function add()
 }
 function back()
 {
+  document.getElementById("varheader").innerHTML="Phone Directory";
   var tmp=document.getElementById("add")
   tmp.removeChild(document.getElementById("add2"));
   var back='<button id="add2" type="submit" class="btn button-add" onclick="add()">ADD</button>';
