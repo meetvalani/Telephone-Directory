@@ -1,0 +1,36 @@
+body{
+     font-family: 'Calibri', 'Arial', 'sans-serif';
+  font-weight: 100;
+  color : #07686b9f;
+  background-color: rgba(238, 235, 37, 0.007);
+}
+h1{
+  font-weight: 100;
+}
+header{
+  color: #eee7e7;
+  background-color: #2f4fd179;
+}
+.button-add{
+  background: rgba(127, 172, 255, 0.815);
+  color: #fff; 
+}
+
+.button-add :hover{
+  background:  #fff;
+}
+
+td{
+  color: #555 ;
+  font-weight: 300;
+  vertical-align: middle !important;
+}
+
+.avatar{
+  width: 50px;
+  border: 2px solid #bbb;
+}
+.button-remove{
+  background: #e08142;
+  color: #fff;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telephone Directory</title>
+  
+  
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+<hr>
+  <header align="center">
+      <h1> Telephone Directory</h1>
+    </header>
+  <hr>
+
+<div class="container" id="test">
+ <div class="row"> 
+  <div class="col-md-3">
+  <div id="add">
+      <button id="add2" type="submit" class="btn button-add" onclick="add()">ADD</button>
+  </div>
+  <br>
+  <div id="formt">
+    <div class="form-group">
+      <label for="email">Name</label>
+      <input id="newname" type="text" class="form-control " oninput="chname()" id="email">
+    </div>
+    <div class="form-group">
+      <label for="email">Phone Number</label>
+      <input id="newnum" type="text" class="form-control " oninput="chnum()" id="email">
+    </div>
+    <div class="form-group">
+        <h4>Subscriber to be added:</h4>
+        
+        Name: <label id="addname" for="email"></label>
+        <br>
+        Phone: <label id="addnum" for="email"></label>
+    </div>
+
+    <button type="submit" class="btn button-add" onclick="validate()">ADD</button>
+  </div>
+</div> 
+   
+ <div id="maindata" class=" col-md-9">
+ <div class="  col-md-10 col-md-offset-2">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="chan">
+
+    </tbody>
+  </table>
+   </div>
+</div>
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+  <script src="js/logic.js"></script>
+  
+
+</body>
+
+</html>
