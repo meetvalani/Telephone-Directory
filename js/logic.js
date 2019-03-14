@@ -87,7 +87,8 @@ function back()
   var back='<button id="add2" type="submit" class="btn button-add" onclick="add()">ADD</button>';
   tmp.innerHTML=back;
   document.getElementById("formt").style.display="none";
-  document.getElementById("maindata").style.display="block";    }
+  document.getElementById("maindata").style.display="block";    
+}
 function del(x)
 {
   var t=x
